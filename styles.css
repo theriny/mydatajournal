@@ -1,0 +1,11 @@
+/* css styles */
+
+a {
+    text-decoration: none;
+    color: inherit; /* Optional: inherit the surrounding text color */
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
