@@ -12,5 +12,54 @@
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Predicting NBA Game Using Defensive Stats: A machine learning classsificatin model trained with NBA defensive stats REPO🧑🏾‍💻Article✍🏾"
+  },
+  {
+    "objectID": "projects.html#forecasts",
+    "href": "projects.html#forecasts",
+    "title": "Projects",
+    "section": "",
+    "text": "2025 March Madness: A Bayesian forecast of the 2025 men’s and women’s March Madness tournaments (men’s forecast | women’s forecast | repo)"
+  },
+  {
+    "objectID": "projects.html#talks-publications-etc.",
+    "href": "projects.html#talks-publications-etc.",
+    "title": "Projects",
+    "section": "Talks, Publications, etc.",
+    "text": "Talks, Publications, etc."
+  },
+  {
+    "objectID": "scholarship.html",
+    "href": "scholarship.html",
+    "title": "Scholarship",
+    "section": "",
+    "text": "📚 Publications\nYoung, T.; Chiranjeevi, S.; Elango, D.; Sarkar, S.; Singh, A.K.; Singh, A.; Ganapathysubramanian, B.; Jubery, T.Z.\nSoybean Canopy Stress Classification Using 3D Point Cloud Data. Agronomy 2024, 14, 1181.\nhttps://doi.org/10.3390/agronomy14061181\n\nYoung TJ, Jubery TZ, Carley CN, Carroll M, Sarkar S, Singh AK, Singh A, Ganapathysubramanian B.\n“Canopy fingerprints” for characterizing three-dimensional point cloud data of soybean canopies. Front. Plant Sci. 2023;14:1141153.\nhttps://doi.org/10.3389/fpls.2023.1141153\n\nSingh, A.K., Singh, A., Young, T.\nHigh-Throughput Phenotyping in Soybean. In: High-Throughput Crop Phenotyping. Springer, 2021. pp. 129–163.\nhttps://link.springer.com/chapter/10.1007/978-3-030-82574-1_6\n\nMirnezami, V., Young, T., Assefa, T., Prichard, S., Nagasubramanian, K., Sandhu, K., Sarkar, S., Sundararajan, S., O’Neal, M., Ganapathysubramanian, B., Singh, A.\nTrichome density measurement in soybean leaflet using advanced image processing techniques. Applications in Plant Sciences, 2020; 8(7): e11375.\nhttps://doi.org/10.1002/aps3.11375\n\nYoung, T., Jackson, J., Roy, S., Ceylan, H., Sundararajan, S.\nTribological behavior and wettability of spray-coated superhydrophobic coatings on aluminum. Wear, 2017; 376–377 (Part B): 1713–1719.\nhttps://doi.org/10.1016/j.wear.2016.12.050\n\nYoung, T.\nDevelopment of durable superhydrophobic materials for ice- and snow-free airport concrete pavements. M.S. Thesis, Iowa State University, 2016.\nhttps://dr.lib.iastate.edu/entities/publication/9cf1832e-44cb-4dd5-970b-92a97c0c787b"
+  },
+  {
+    "objectID": "projects.html#sports-ball",
+    "href": "projects.html#sports-ball",
+    "title": "Projects",
+    "section": "",
+    "text": "Predicting NBA Game Using Defensive Stats: A machine learning classsificatin model trained with NBA defensive stats repo"
+  },
+  {
+    "objectID": "projects.html#sport",
+    "href": "projects.html#sport",
+    "title": "Projects",
+    "section": "",
+    "text": "Predicting NBA Game Using Defensive Stats: A machine learning classsificatin model trained with NBA defensive stats repo"
+  },
+  {
+    "objectID": "projects.html#sports",
+    "href": "projects.html#sports",
+    "title": "Projects",
+    "section": "",
+    "text": "Predicting NBA Game Using Defensive Stats: A machine learning classsificatin model trained with NBA defensive stats REPO🧑🏾‍💻Article✍🏾"
   }
 ]

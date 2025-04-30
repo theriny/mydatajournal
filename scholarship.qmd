@@ -1,0 +1,43 @@
+---
+title: Scholarship
+toc: true
+toc-location: left
+repo-url: https://github.com/theriny/mydatajournal.git
+repo-actions: [source, issue]
+---
+
+# 📚 Publications
+
+**Young, T.; Chiranjeevi, S.; Elango, D.; Sarkar, S.; Singh, A.K.; Singh, A.; Ganapathysubramanian, B.; Jubery, T.Z.**  
+*Soybean Canopy Stress Classification Using 3D Point Cloud Data.* **Agronomy** 2024, 14, 1181.  
+[https://doi.org/10.3390/agronomy14061181](https://doi.org/10.3390/agronomy14061181)
+
+---
+
+**Young TJ, Jubery TZ, Carley CN, Carroll M, Sarkar S, Singh AK, Singh A, Ganapathysubramanian B.**  
+*"Canopy fingerprints" for characterizing three-dimensional point cloud data of soybean canopies.* *Front. Plant Sci.* 2023;14:1141153.  
+[https://doi.org/10.3389/fpls.2023.1141153](https://doi.org/10.3389/fpls.2023.1141153)
+
+---
+
+**Singh, A.K., Singh, A., Young, T.**  
+*High-Throughput Phenotyping in Soybean.* In: High-Throughput Crop Phenotyping. Springer, 2021. pp. 129–163.  
+[https://link.springer.com/chapter/10.1007/978-3-030-82574-1_6](https://link.springer.com/chapter/10.1007/978-3-030-82574-1_6)
+
+---
+
+**Mirnezami, V., Young, T., Assefa, T., Prichard, S., Nagasubramanian, K., Sandhu, K., Sarkar, S., Sundararajan, S., O’Neal, M., Ganapathysubramanian, B., Singh, A.**  
+*Trichome density measurement in soybean leaflet using advanced image processing techniques.* *Applications in Plant Sciences*, 2020; 8(7): e11375.  
+[https://doi.org/10.1002/aps3.11375](https://doi.org/10.1002/aps3.11375)
+
+---
+
+**Young, T., Jackson, J., Roy, S., Ceylan, H., Sundararajan, S.**  
+*Tribological behavior and wettability of spray-coated superhydrophobic coatings on aluminum.* *Wear*, 2017; 376–377 (Part B): 1713–1719.  
+[https://doi.org/10.1016/j.wear.2016.12.050](https://doi.org/10.1016/j.wear.2016.12.050)
+
+---
+
+**Young, T.**  
+*Development of durable superhydrophobic materials for ice- and snow-free airport concrete pavements.* M.S. Thesis, Iowa State University, 2016.  
+[https://dr.lib.iastate.edu/entities/publication/9cf1832e-44cb-4dd5-970b-92a97c0c787b](https://dr.lib.iastate.edu/entities/publication/9cf1832e-44cb-4dd5-970b-92a97c0c787b)

@@ -5,9 +5,14 @@ website:
   title: "Portfolio"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
+      - text: Home
+        href: index.qmd    
+      - text: Projects
+        href: projects.qmd
+      - text: Scholarship
+        href: scholarship.qmd
       - about.qmd
+      
 
 format:
   html:

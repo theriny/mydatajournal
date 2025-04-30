@@ -2,28 +2,14 @@
 title: Projects
 toc: true
 toc-location: left
-repo-url:
+repo-url: https://github.com/theriny/mydatajournal.git
 repo-actions: [source, issue]
 ---
 
-## Open Source Software
+## Sports 🏀🏈⚽
 
-* [workboots](https://markjrieke.github.io/workboots/): Generate bootstrap 🥾 prediction intervals from a tidymodel workflow.
-* [nplyr](https://jibarozzo.github.io/nplyr/): A grammar of (nested) data manipulation 🐦 (now maintained by [Bolívar Aponte Rolón](https://github.com/jibarozzo)).
-* [riekelib](https://markjrieke.github.io/riekelib/): A collection of functions I use regularly.
-* [heRmann](https://markjrieke.github.io/heRmann/): A collection of functions for the CXA team at Memorial Hermann.
+* **Predicting NBA Game Using Defensive Stats**: A machine learning classsificatin model trained with NBA defensive stats [**GitHub Repo**🧑🏾‍💻](https://github.com/theriny/NBA-Defense-Model)[**LinkedIn Article**✍🏾](https://www.linkedin.com/pulse/does-defense-really-win-games-insights-from-nba-data-analytics-young-bnvje/)
 
-## Forecasts
 
-* **2025 March Madness**: A Bayesian forecast of the 2025 men's and women's March Madness tournaments ([men's forecast ](2025-march-madness/mens.qmd) | [women's forecast](2025-march-madness/womens.qmd) | [repo](https://github.com/markjrieke/2025-march-madness))
-* **2024 President**: A dynamic Bayesian forecast of the 2024 presidential election ([forecast](2024-potus/National.qmd) | [repo](https://github.com/markjrieke/2024-potus)). 
-* **2022 Senate**: A simulation-based forecast of the 2022 Senate elections ([forecast](2022-midterms/senate.qmd) | [repo](https://github.com/markjrieke/2022-midterm-forecasts)).
-* **2022 House**: A simulation-based forecast of the 2022 House elections ([forecast](2022-midterms/house.qmd) | [repo](https://github.com/markjrieke/2022-midterm-forecasts)).
-* **2022 Governor**: A simulation-based forecast of the 2022 Governor elections ([forecast](2022-midterms/governor.qmd) | [repo](https://github.com/markjrieke/2022-midterm-forecasts)).
+## Music 🎵🎸🎧
 
-## Talks, Presentations, etc.
-
-* **2024 Corporate Retreat**: Machine go brrrrr: Statistics is easy if you let the computer do all the work ([slides](https://markjrieke.github.io/2024-corporate-retreat/statistics-is-fun.html) | [repo](https://github.com/markjrieke/2024-corporate-retreat)).
-* **Kudzu Vine Radio Show**: Mark Rieke of the Data Diary discusses his election forecasting model ([recording](https://www.blogtalkradio.com/kudzu/2024/09/29/mark-rieke-of-the-data-diary)).
-* **Data Humans Podcast**: Meet Mark Rieke: career transition from mechanical engineering, craving more technical work, and how we all belong in data ([recording](https://open.spotify.com/episode/3WYo7Fmiv03ujIJHUs8sYh)).
-* **rstudio::conf(2022)**: Intro to Workboots: Make Prediction Intervals from Tidymodel Workflows ([recording](https://www.youtube.com/watch?v=F4osY469UoY) | [slides](https://github.com/markjrieke/rstudio-conf-2022) | [package site](https://markjrieke.github.io/workboots/)).
