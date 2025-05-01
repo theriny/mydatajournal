@@ -1,58 +1,30 @@
 ---
-title: "Welcome"
-format: html
+title: my data journal
+subtitle: A scratchpad for data science, analytics, and other things that catch my interest
+listing:
+  feed: true
+  contents: posts
+  sort: "date desc"
+  type: grid
+  grid-columns: 3
+  image-height: 250px
+  page-size: 100
+  categories: true
 page-layout: full
+title-block-banner: true
+code-tools: false
 ---
 
-<div style="max-width: 560px; margin: 2rem auto; padding: 1.5rem; border: 1px solid #ddd; border-radius: 10px; text-align: center; box-shadow: 2px 2px 10px rgba(0,0,0,0.1); background-color: #f9f9f9;">
+### Stay in touch
+```{python}
+#| echo: false
+#| message: false
+#| warning: false
 
-<img src="images/me2.png" alt="Profile photo" style="width: 50%; max-width: 50%; height: 100%; margin-bottom: 1rem;">
+# Read and print the HTML content
+with open("posts/subscribe.html", "r", encoding="utf-8") as f:
+    html = f.read()
 
-<div style="margin-top: 1.5rem;">
-  <a href="https://github.com/theriny" style="margin: 0 10px; text-decoration: none;">
-    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub" style="width: 24px; height: 24px;">
-  </a>
-  <a href="https://linkedin.com/in/herin-j-y-10651749" style="margin: 0 10px; text-decoration: none;">
-    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" style="width: 24px; height: 24px;">
-  </a>
-
-
-# 👋 Hi, I'm Therin!
-
-I'm a data scientist passionate about building tools that make data more accessible and actionable. I earned my master's in mechanical engineering from [Iowa State University](https://www.iastate.edu/) in 2016, and I'm currently a PhD candidate using **machine learning** and **3D modeling** to build software solutions for **precision agriculture** applications. I use **Python**, **Azure**, and **SQL** in my current role.
-
-I spent 2 years at [**Ford Motor Company**](https://www.ford.com/) as a data scientist on the Material Cost & Analytics team where I used **Python**, **Qlik**, and **Alteryx** to build analytics dashboards and **forecasting** tools to optimize vehicle feature scheduling and reduce revenue loss. I also spent a year with [**Collaborative Real Estate**](https://www.collabre.co) gathering insight from [**FLASH**](https://www.flashparking.com/) parking data to improve the parker experience.
-
-When I'm not out playing soccer with my two boys or spending time with my wife, I'm producing beats on my Maschine, playing bass guitar, or getting owned by teenagers in Fortnite.
-
-You can find some of my work on my [Github](https://github.com/theriny).
-
-Here's a quick animation of how I use 3D modeling and Python to automate the extraction of features (phenotypes) from soybean canopies.
-https://www.collabre.co/
-
-
-
-
-<video width="500" controls>
-  <source src="videos/3dsoybean.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-
-
-
-
-
- 
-</div>
-
-</div>
-
-
-
-
-
-
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+from IPython.display import display, HTML
+display(HTML(html))
+```

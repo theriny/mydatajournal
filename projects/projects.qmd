@@ -1,0 +1,17 @@
+---
+title: Projects
+toc: true
+toc-location: left
+repo-url: https://github.com/theriny/mydatajournal.git
+repo-actions: [source, issue]
+---
+
+## Sports 🏀🏈⚽
+
+* **Predicting NBA Game Using Defensive Stats**: A machine learning classsificatin model trained with NBA defensive stats [**GitHub Repo**🧑🏾‍💻](https://github.com/theriny/NBA-Defense-Model)[**LinkedIn Article**✍🏾](https://www.linkedin.com/pulse/does-defense-really-win-games-insights-from-nba-data-analytics-young-bnvje/)
+
+
+## Music 🎵🎸🎧
+
+* **Genius Lyric Scraper**🎶: Using Python and Genius's API tool to scrape song lyrics [**GitHub Repo**🧑🏾‍💻](https://github.com/theriny/lyricScrape)
+*Thinking of creating a Python library for this one*

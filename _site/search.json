@@ -2,16 +2,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome",
+    "title": "my data journal",
     "section": "",
-    "text": "👋 Hi, I’m Therin!\nI’m a data scientist passionate about building tools that make data more accessible and actionable. I earned my master’s in mechanical engineering from Iowa State University in 2016, and I’m currently a PhD candidate using machine learning and 3D modeling to build software solutions for precision agriculture applications. I use Python, Azure, and SQL in my current role.\nI spent 2 years at Ford Motor Company as a data scientist on the Material Cost & Analytics team where I used Python, Qlik, and Alteryx to build analytics dashboards and forecasting tools to optimize vehicle feature scheduling and reduce revenue loss. I also spent a year with Collaborative Real Estate gathering insight from FLASH parking data to improve the parker experience.\nWhen I’m not out playing soccer with my two boys or spending time with my wife, I’m producing beats on my Maschine, playing bass guitar, or getting owned by teenagers in Fortnite.\nYou can find some of my work on my Github.\nHere’s a quick animation of how I use 3D modeling and Python to automate the extraction of features (phenotypes) from soybean canopies. https://www.collabre.co/\n\n\nYour browser does not support the video tag. \n\n\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Stay in touch\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Welcome",
     "section": "",
-    "text": "About this site"
+    "text": "👋 Hi, I’m Therin!\nI’m a data scientist passionate about building tools that make data more accessible and actionable. I earned my master’s in mechanical engineering from Iowa State University in 2016, and I’m currently a PhD candidate using machine learning and 3D modeling to build software solutions for precision agriculture applications. I use Python, Azure, and SQL in my current role.\nI spent 2 years at Ford Motor Company as a data scientist on the Material Cost & Analytics team where I used Python, Qlik, and Alteryx to build analytics dashboards and forecasting tools to optimize vehicle feature scheduling and reduce revenue loss. I also spent a year with Collaborative Real Estate gathering insight from FLASH parking data to improve the parker experience.\nWhen I’m not out playing soccer with my two boys or spending time with my wife, I’m producing beats on my Maschine, playing bass guitar, or getting owned by teenagers in Fortnite.\nYou can find some of my work on my Github.\nHere’s a quick animation of how I use 3D modeling and Python to automate the extraction of features (phenotypes) from soybean canopies. https://www.collabre.co/\n\n\nYour browser does not support the video tag. \n\n\nThis is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
     "objectID": "projects.html",
@@ -67,6 +67,13 @@
     "href": "projects.html#music",
     "title": "Projects",
     "section": "Music 🎵🎸🎧",
-    "text": "Music 🎵🎸🎧"
+    "text": "Music 🎵🎸🎧\n\nGenius Lyric Scraper🎶: Using Python and Genius’s API tool to scrape song lyrics GitHub Repo🧑🏾‍💻 Thinking of creating a Python library for this one"
+  },
+  {
+    "objectID": "about/about.html",
+    "href": "about/about.html",
+    "title": "👋 Hi, I’m Therin!",
+    "section": "",
+    "text": "👋 Hi, I’m Therin!\nI’m a data scientist passionate about building tools that make data more accessible and actionable. I earned my master’s in mechanical engineering from Iowa State University in 2016, and I’m currently a PhD candidate using machine learning and 3D modeling to build software solutions for precision agriculture applications. I use Python, Azure, and SQL in my current role.\nI spent 2 years at Ford Motor Company as a data scientist on the Material Cost & Analytics team where I used Python, Qlik, and Alteryx to build analytics dashboards and forecasting tools to optimize vehicle feature scheduling and reduce revenue loss. I also spent a year with Collaborative Real Estate gathering insight from FLASH parking data to improve the parker experience.\nWhen I’m not out playing soccer with my two boys or spending time with my wife, I’m producing beats on my Maschine, playing bass guitar, or getting owned by teenagers in Fortnite.\nYou can find some of my work on my Github.\nHere’s a quick animation of how I use 3D modeling and Python to automate the extraction of features (phenotypes) from soybean canopies.\n\n\nYour browser does not support the video tag."
   }
 ]

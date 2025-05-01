@@ -1,0 +1,43 @@
+---
+title: ""
+about: 
+  template: trestles
+  image: me2.png
+  links: 
+    - icon: github
+      text: Github
+      aria-label: Github
+      href: https://github.com/theriny
+    - icon: linkedin
+      text: LinkedIn
+      aria-label: LinkedIn
+      href: https://www.linkedin.com/in/therin-j-y-10651749/
+---
+
+<style>
+
+smalltext {
+  font-size: 14px;
+  color: gray;
+  line-height: 1;
+}
+
+</style>
+
+# 👋 Hi, I'm Therin!
+
+I'm a data scientist passionate about building tools that make data more accessible and actionable. I earned my master's in mechanical engineering from [Iowa State University](https://www.iastate.edu/) in 2016, and I'm currently a PhD candidate using **machine learning** and **3D modeling** to build software solutions for **precision agriculture** applications. I use **Python**, **Azure**, and **SQL** in my current role.
+
+I spent 2 years at [**Ford Motor Company**](https://www.ford.com/) as a data scientist on the Material Cost & Analytics team where I used **Python**, **Qlik**, and **Alteryx** to build analytics dashboards and **forecasting** tools to optimize vehicle feature scheduling and reduce revenue loss. I also spent a year with [**Collaborative Real Estate**](https://www.collabre.co) gathering insight from [**FLASH**](https://www.flashparking.com/) parking data to improve the parker experience.
+
+When I'm not out playing soccer with my two boys or spending time with my wife, I'm producing beats on my Maschine, playing bass guitar, or getting owned by teenagers in Fortnite.
+
+You can find some of my work on my [Github](https://github.com/theriny).
+
+Here's a quick animation of how I use 3D modeling and Python to automate the extraction of features (phenotypes) from soybean canopies.
+
+<video width="500" controls>
+  <source src="3dsoybean.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
