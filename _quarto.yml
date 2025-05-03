@@ -8,11 +8,11 @@ website:
       - text: My Data Journal
         href: index.qmd
       - text: About
-        href: about.qmd
+        href: about/about.qmd
       - text: Projects
-        href: projects.qmd
+        href: projects/projects.qmd
       - text: Scholarship
-        href: scholarship.qmd
+        href: scholarship/scholarship.qmd
       
       
 
