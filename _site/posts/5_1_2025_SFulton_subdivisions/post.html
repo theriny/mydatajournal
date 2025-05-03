@@ -744,7 +744,8 @@ Johns Creek
 <span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>shapeArea_perYear <span class="op">=</span> df.groupby(by<span class="op">=</span>[<span class="st">'YearRecorded'</span>]).agg({<span class="st">'Shape__Area'</span>: <span class="st">'mean'</span>})</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="sourceCode" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>plt.bar(shapeArea_perYear.index,shapeArea_perYear.Shape__Area)</span>
 <span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Shape Area (acres)'</span>)</span>
-<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'YearRecorded'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'YearRecorded'</span>)</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <pre><code>Text(0.5, 0, 'YearRecorded')</code></pre>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -864,7 +865,8 @@ NaN
 <span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>plt.bar(shapeLength_perYear.index,shapeLength_perYear.Shape__Length)</span>
 <span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'YearRecorded'</span>)</span>
-<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Shape Length (ft)'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Shape Length (ft)'</span>)</span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <pre><code>Text(0, 0.5, 'Shape Length (ft)')</code></pre>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -1170,7 +1172,8 @@ NaN
 <div class="sourceCode" id="cb34"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>sns.barplot(data<span class="op">=</span>sorted_post1970.iloc[:<span class="dv">5</span>], x <span class="op">=</span> <span class="st">'SubdivName'</span>,y<span class="op">=</span> <span class="st">'Shape__Area'</span>)</span>
 <span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">'Shape Area (acres)'</span>)</span>
 <span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">'Subdivision'</span>)</span>
-<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>plt.xticks(rotation<span class="op">=</span><span class="dv">90</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>plt.xticks(rotation<span class="op">=</span><span class="dv">90</span>)</span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <pre><code>(array([0, 1, 2, 3, 4]),
  [Text(0, 0, 'Martins Landing/Lakeview Homes'),
   Text(1, 0, 'Horseshoe Bend'),
@@ -1209,7 +1212,7 @@ Subdivision Data.”</span> May 1, 2025.
 
     
 
-    <iframe src="https://embeds.beehiiv.com/4ad5cd9b-6f4f-4da2-ab26-951cfd67ddb7?slim=true" data-test-id="beehiiv-embed" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; height: 65px; background-color: transparent;"></iframe>
+    <iframe src="https://embeds.beehiiv.com/cb95c556-8bf4-4ed1-865d-f20fdb642a1a?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"><script type="text/javascript" async src="https://embeds.beehiiv.com/attribution.js"></script></iframe>
 
 
 
