@@ -485,6 +485,7 @@ shapeArea_perYear = df.groupby(by=['YearRecorded']).agg({'Shape__Area': 'mean'})
 plt.bar(shapeArea_perYear.index,shapeArea_perYear.Shape__Area)
 plt.ylabel('Shape Area (acres)')
 plt.xlabel('YearRecorded')
+plt.show()
 ```
 
 
@@ -582,6 +583,7 @@ shapeLength_perYear = df.groupby(by='YearRecorded').agg({'Shape__Length':'mean'}
 plt.bar(shapeLength_perYear.index,shapeLength_perYear.Shape__Length)
 plt.xlabel('YearRecorded')
 plt.ylabel('Shape Length (ft)')
+plt.show()
 ```
 
 
@@ -750,6 +752,7 @@ sns.barplot(data=sorted_post1970.iloc[:5], x = 'SubdivName',y= 'Shape__Area')
 plt.ylabel('Shape Area (acres)')
 plt.xlabel('Subdivision')
 plt.xticks(rotation=90)
+plt.show()
 ```
 
 
