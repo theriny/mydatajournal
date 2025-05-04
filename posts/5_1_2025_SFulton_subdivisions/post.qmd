@@ -10,7 +10,7 @@ code-fold: show
 
 
 
-This is part 1 of a 2- (maybe 3) series analysis of **Fulton County, Georgia's** subdivisions, where the only metrics recorded are **shape area** and **shape length**📐📏 (A little more detail about those metrics later in the analysis). Doesn't seem like a very interesting dataset at first glance🥸, but I always uncover interesting and unexpected nuggets🪙 of information from seemingly dull datasets. So, if I find a rabbit hole, let's hope it's a fun one.🐰
+This is part 1 of a 2- (maybe 3) part analysis of **Fulton County, Georgia's** subdivisions, where the only metrics recorded are **shape area** and **shape length**📐📏 (A little more detail about those metrics later in the analysis). Doesn't seem like a very interesting dataset at first glance🥸, but I always uncover interesting and unexpected nuggets🪙 of information from seemingly dull datasets. So, if I find a rabbit hole, let's hope it's a fun one.🐰
 
 I'm going to start the first part of the series from far out🛰️ (basic statistics) and gradually hone in for a more nuanced analysis🔬 as the series progresses and I begin to ask questions about the data that is relevant to my own location in **South Fulton**.
 
