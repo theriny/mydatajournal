@@ -130,7 +130,7 @@
     "href": "posts/5_5_2025_NovaLogin/post.html",
     "title": "Logging Into Nova HPC Cluster",
     "section": "",
-    "text": "I’m tired of looking at these setup/login instruction in my OneNote notebook. It’s just less messy and more convenient to have everything here."
+    "text": "I’m tired of looking at these setup/login instructions in my OneNote notebook. It’s just less messy and more convenient to have everything here."
   },
   {
     "objectID": "posts/5_5_2025_NovaLogin/post.html#step-1-login-to-nova-via-cmd-command--",
@@ -138,5 +138,26 @@
     "title": "Logging Into Nova HPC Cluster",
     "section": "Step 1: Login to Nova via CMD command ———-",
     "text": "Step 1: Login to Nova via CMD command ———-\n\nLogin to ISU remote via Cisco Secure Client\nOpen CMD command line and login to Nova\n\n$ ssh my-netid@nova.its.iastate.edu\n\nOpen Google Authenticator to see authentication\nType authentication code in to CMD command line\nType ISU password into CMD command line\nAllocate resources to the Nova session:\n\n$ salloc #desired options"
+  },
+  {
+    "objectID": "posts/5_5_2025_NovaLogin/post.html#step-1-login-to-nova-via-cmd-command-line",
+    "href": "posts/5_5_2025_NovaLogin/post.html#step-1-login-to-nova-via-cmd-command-line",
+    "title": "Logging Into Nova HPC Cluster",
+    "section": "Step 1: Login to Nova via CMD command line 🖥️",
+    "text": "Step 1: Login to Nova via CMD command line 🖥️\n\nLogin to ISU remote via Cisco Secure Client 🛰️\nOpen CMD command line and login to Nova\n\n$ ssh my-netid@nova.its.iastate.edu\n\nOpen Google Authenticator to see authentication\nType authentication code in to CMD command line\nType ISU password into CMD command line\nAllocate resources to the Nova session:\n\n$ salloc #desired options"
+  },
+  {
+    "objectID": "posts/5_5_2025_NovaLogin/post.html#step-2.-initiate-conda-micromamba-environment",
+    "href": "posts/5_5_2025_NovaLogin/post.html#step-2.-initiate-conda-micromamba-environment",
+    "title": "Logging Into Nova HPC Cluster",
+    "section": "Step 2. Initiate Conda (Micromamba) Environment 🐍",
+    "text": "Step 2. Initiate Conda (Micromamba) Environment 🐍\n\nLoad the micromamba module (this is the alternative to using conda Mamba is faster)\nIf python environment does not exist (it won’t if this is your first time logging in), create the environment in the working directory (see working directory above)\n\n$ micromamba create --prefix workingdirectory/env-name/python -c conda-forge\n\nInitialize bash shell to use activate and deactivate\n\n$ eval \"$(micromamba shell hook --shell=bash)\"\n\nActivate the environment using micromamba\n\n$ micromamba activate workingenvironment/env-name"
+  },
+  {
+    "objectID": "posts/5_5_2025_NovaLogin/post.html#step-3.-set-conda-environment-to-work-with-open-on-demand-ood-jupyter-notebook-only-have-to-do-this-once-after-creating-micromamba-environment",
+    "href": "posts/5_5_2025_NovaLogin/post.html#step-3.-set-conda-environment-to-work-with-open-on-demand-ood-jupyter-notebook-only-have-to-do-this-once-after-creating-micromamba-environment",
+    "title": "Logging Into Nova HPC Cluster",
+    "section": "Step 3. Set Conda Environment to Work with Open-On-Demand (OOD) Jupyter Notebook (Only have to do this once after creating Micromamba environment) 📓📒📔",
+    "text": "Step 3. Set Conda Environment to Work with Open-On-Demand (OOD) Jupyter Notebook (Only have to do this once after creating Micromamba environment) 📓📒📔\nOnce micromamba environment is activated, install ipykernel which is a package that provides the Ipython kernel for jupyter:\n$ micromamba install -c anaconda ipykernel\nWhen ipykernel is installed, the config that OOD nees can be created in the home directory with:\n$ python3 -m ipykernel install --user --name \"env-name\" # ONLY RUN ONCE\nOnce the config is created, the environment can be used by:\n\nLogging in to the appropriate cluster’s Open OnDemand. See guide here\nCreating a Jupyter Notebook Session\nSelect Interactive Apps\nSelect Jupyter Notebook from the list of apps\nSelect desired compute and partition settings.\nSelect Launch\nOnce it starts, select Connect to Jupyter\nIn the Jupyter Notebook Launcher, select micromamba env-name from the Notebook or Console section. It can also be selected as the kernel when choosing the kernel for a new notebook or console.\n\nAnd that’s it!!! You’re connected to the HPC Cluster 😃😃"
   }
 ]

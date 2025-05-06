@@ -160,7 +160,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#step-1-login-to-nova-via-cmd-command--" id="toc-step-1-login-to-nova-via-cmd-command--" class="nav-link active" data-scroll-target="#step-1-login-to-nova-via-cmd-command--">Step 1: Login to Nova via CMD command ———-</a></li>
+  <li><a href="#step-1-login-to-nova-via-cmd-command-line" id="toc-step-1-login-to-nova-via-cmd-command-line" class="nav-link active" data-scroll-target="#step-1-login-to-nova-via-cmd-command-line">Step 1: Login to Nova via CMD command line 🖥️</a></li>
+  <li><a href="#step-2.-initiate-conda-micromamba-environment" id="toc-step-2.-initiate-conda-micromamba-environment" class="nav-link" data-scroll-target="#step-2.-initiate-conda-micromamba-environment">Step 2. Initiate Conda (Micromamba) Environment 🐍</a></li>
+  <li><a href="#step-3.-set-conda-environment-to-work-with-open-on-demand-ood-jupyter-notebook-only-have-to-do-this-once-after-creating-micromamba-environment" id="toc-step-3.-set-conda-environment-to-work-with-open-on-demand-ood-jupyter-notebook-only-have-to-do-this-once-after-creating-micromamba-environment" class="nav-link" data-scroll-target="#step-3.-set-conda-environment-to-work-with-open-on-demand-ood-jupyter-notebook-only-have-to-do-this-once-after-creating-micromamba-environment">Step 3. Set Conda Environment to Work with Open-On-Demand (OOD) Jupyter Notebook (Only have to do this once after creating Micromamba environment) 📓📒📔</a></li>
   </ul>
 </nav>
 </nav>
@@ -175,15 +177,15 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>I’m tired of looking at these setup/login instruction in my OneNote notebook. It’s just less messy and more convenient to have everything here.</p>
+<p>I’m tired of looking at these setup/login instructions in my OneNote notebook. It’s just less messy and more convenient to have everything here.</p>
 <ul>
-<li>Nova working directory: /work/mech-ai/theriny *conda environment and package installs should be here</li>
+<li>Nova working directory: /work/mech-ai/my-netid *conda environment and package installs should be here</li>
 <li><a href="https://nova-ondemand.its.iastate.edu/"><strong>Connect Jupyter Lab to OnDemand</strong></a></li>
 </ul>
-<section id="step-1-login-to-nova-via-cmd-command--" class="level2">
-<h2 class="anchored" data-anchor-id="step-1-login-to-nova-via-cmd-command--">Step 1: Login to Nova via CMD command ———-</h2>
+<section id="step-1-login-to-nova-via-cmd-command-line" class="level2">
+<h2 class="anchored" data-anchor-id="step-1-login-to-nova-via-cmd-command-line">Step 1: Login to Nova via CMD command line 🖥️</h2>
 <ol type="1">
-<li>Login to ISU remote via Cisco Secure Client</li>
+<li>Login to ISU remote via Cisco Secure Client 🛰️</li>
 <li>Open CMD command line and login to Nova</li>
 </ol>
 <pre><code>$ ssh my-netid@nova.its.iastate.edu</code></pre>
@@ -194,6 +196,41 @@ ul.task-list li input[type="checkbox"] {
 <li>Allocate resources to the Nova session:</li>
 </ol>
 <pre><code>$ salloc #desired options</code></pre>
+</section>
+<section id="step-2.-initiate-conda-micromamba-environment" class="level2">
+<h2 class="anchored" data-anchor-id="step-2.-initiate-conda-micromamba-environment">Step 2. Initiate Conda (Micromamba) Environment 🐍</h2>
+<ol start="7" type="1">
+<li>Load the micromamba module (<em>this is the alternative to using conda</em> Mamba is faster)</li>
+<li>If python environment does not exist (it won’t if this is your first time logging in), create the environment in the working directory (see working directory above)</li>
+</ol>
+<pre><code>$ micromamba create --prefix workingdirectory/env-name/python -c conda-forge</code></pre>
+<ol start="9" type="1">
+<li>Initialize bash shell to use <strong>activate</strong> and <strong>deactivate</strong></li>
+</ol>
+<pre><code>$ eval "$(micromamba shell hook --shell=bash)"</code></pre>
+<ol start="10" type="1">
+<li>Activate the environment using micromamba</li>
+</ol>
+<pre><code>$ micromamba activate workingenvironment/env-name</code></pre>
+</section>
+<section id="step-3.-set-conda-environment-to-work-with-open-on-demand-ood-jupyter-notebook-only-have-to-do-this-once-after-creating-micromamba-environment" class="level2">
+<h2 class="anchored" data-anchor-id="step-3.-set-conda-environment-to-work-with-open-on-demand-ood-jupyter-notebook-only-have-to-do-this-once-after-creating-micromamba-environment">Step 3. Set Conda Environment to Work with Open-On-Demand (OOD) Jupyter Notebook (Only have to do this once after creating Micromamba environment) 📓📒📔</h2>
+<p>Once micromamba environment is activated, install ipykernel which is a package that provides the Ipython kernel for jupyter:</p>
+<pre><code>$ micromamba install -c anaconda ipykernel</code></pre>
+<p>When ipykernel is installed, the config that OOD nees can be created in the home directory with:</p>
+<pre><code>$ python3 -m ipykernel install --user --name "env-name" # ONLY RUN ONCE</code></pre>
+<p>Once the config is created, the environment can be used by:</p>
+<ol type="1">
+<li>Logging in to the appropriate cluster’s Open OnDemand. <a href="http://nova-ondemand.its.iastate.edu/"><strong>See guide here</strong></a></li>
+<li>Creating a Jupyter Notebook Session</li>
+<li>Select Interactive Apps</li>
+<li>Select Jupyter Notebook from the list of apps</li>
+<li>Select desired compute and partition settings.</li>
+<li>Select Launch</li>
+<li>Once it starts, select Connect to Jupyter</li>
+<li>In the Jupyter Notebook Launcher, select micromamba env-name from the Notebook or Console section. It can also be selected as the kernel when choosing the kernel for a new notebook or console.</li>
+</ol>
+<p>And that’s it!!! You’re connected to the HPC Cluster 😃😃</p>
 
 
 </section>
