@@ -11,49 +11,59 @@ format:
     code-fold: false
 ---
 
-I'm tired of looking at these setup/login instruction in my OneNote notebook. It's just less messy and more convenient to have everything here.
+I'm tired of looking at these setup/login instructions in my OneNote notebook. It's just less messy and more convenient to have everything here.
 
 * Nova working directory: /work/mech-ai/my-netid *conda environment and package installs should be here
 * [**Connect Jupyter Lab to OnDemand**](https://nova-ondemand.its.iastate.edu/
 )
 
 
-## Step 1: Login to Nova via CMD command line🖥️
+## Step 1: Login to Nova via CMD command line 🖥️
 1. Login to ISU remote via Cisco Secure Client 🛰️
 2. Open CMD command line and login to Nova
+
 ```
 $ ssh my-netid@nova.its.iastate.edu
 ```
+
 3. Open *Google Authenticator* to see authentication
 4. Type authentication code in to CMD command line
 5. Type ISU password into CMD command line 
 6. Allocate resources to the Nova session:
+
 ```
 $ salloc #desired options
 ```
 ## Step 2. Initiate Conda (Micromamba) Environment 🐍
 7. Load the micromamba module (*this is the alternative to using conda* Mamba is faster)
 8. If python environment does not exist (it won't if this is your first time logging in), create the environment in the working directory (see working directory above)
+
 ```
 $ micromamba create --prefix workingdirectory/env-name/python -c conda-forge
 ```
+
 9. Initialize bash shell to use **activate** and **deactivate**
+
 ```
 $ eval "$(micromamba shell hook --shell=bash)"
 ```
+
 10. Activate the environment using micromamba
+
 ```
 $ micromamba activate workingenvironment/env-name
 ```
 
 ## Step 3. Set Conda Environment to Work with Open-On-Demand (OOD) Jupyter Notebook (Only have to do this once after creating Micromamba environment) 📓📒📔
 
-Once micromamba environment is activated, install ipykernel which is a package that provides the Ipython kernel for jupyter
+Once micromamba environment is activated, install ipykernel which is a package that provides the Ipython kernel for jupyter:
+
 ```
 $ micromamba install -c anaconda ipykernel
 ```
 
 When ipykernel is installed, the config that OOD nees can be created in the home directory with:
+
 ```
 $ python3 -m ipykernel install --user --name "env-name" # ONLY RUN ONCE
 ```
