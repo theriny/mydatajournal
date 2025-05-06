@@ -1,7 +1,7 @@
 ---
 title: "Part 1: Exploring Fulton County's Subdivision Data"
 date: '2025-05-01'
-categories: [python,housing development, realestate]
+categories: [python,housing development, real estate]
 description: 'Exploring subdivision data as it relates to the shape area and length of the subdivisions'
 image: output_43_1.png
 code-fold: show
