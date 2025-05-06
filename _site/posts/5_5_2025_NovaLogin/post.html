@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Therin Young">
+<meta name="dcterms.date" content="2025-05-05">
+<meta name="description" content="Writing this down to keep future me sane">
 
-<title>my data journal – Journal</title>
+<title>Logging Into Nova HPC Cluster – Journal</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-dfb324f25d9b1687192fa8be62ac8f9c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-dfb324f25d9b1687192fa8be62ac8f9c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,80 +70,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
-
-<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="floating nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Journal</span>
     </a>
   </div>
@@ -153,19 +93,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">My Data Journal</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about/about.html"> 
+    <a class="nav-link" href="../../about/about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects/projects.html"> 
+    <a class="nav-link" href="../../projects/projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./scholarship/scholarship.html"> 
+    <a class="nav-link" href="../../scholarship/scholarship.html"> 
 <span class="menu-text">Scholarship</span></a>
   </li>  
 </ul>
@@ -176,123 +116,135 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">my data journal</h1>
-            <p class="subtitle lead">A scratchpad for data science, analytics, and other things that catch my interest</p>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">Logging Into Nova HPC Cluster</h1>
+                  <div>
+        <div class="description">
+          Writing this down to keep future me sane
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">python</div>
+                <div class="quarto-category">micromamba</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Therin Young </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">May 5, 2025</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#stay-in-touch" id="toc-stay-in-touch" class="nav-link active" data-scroll-target="#stay-in-touch">Stay in touch</a></li>
+  <li><a href="#step-1-login-to-nova-via-cmd-command--" id="toc-step-1-login-to-nova-via-cmd-command--" class="nav-link active" data-scroll-target="#step-1-login-to-nova-via-cmd-command--">Step 1: Login to Nova via CMD command ———-</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="aG91c2luZyUyMGRldmVsb3BtZW50">housing development <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWljcm9tYW1iYQ==">micromamba <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHl0aG9u">python <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cmVhbGVzdGF0ZQ==">realestate <span class="quarto-category-count">(1)</span></div></div></div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
-<section id="stay-in-touch" class="level3">
-<h3 class="anchored" data-anchor-id="stay-in-touch">Stay in touch</h3>
-<div id="dd46358f" class="cell" data-message="false" data-execution_count="1">
-<div class="cell-output cell-output-display">
-<iframe src="https://embeds.beehiiv.com/4ad5cd9b-6f4f-4da2-ab26-951cfd67ddb7?slim=true" data-test-id="beehiiv-embed" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; height: 65px; background-color: transparent;"></iframe>
-</div>
-</div>
-
+<p>I’m tired of looking at these setup/login instruction in my OneNote notebook. It’s just less messy and more convenient to have everything here.</p>
+<ul>
+<li>Nova working directory: /work/mech-ai/theriny *conda environment and package installs should be here</li>
+<li><a href="https://nova-ondemand.its.iastate.edu/"><strong>Connect Jupyter Lab to OnDemand</strong></a></li>
+</ul>
+<section id="step-1-login-to-nova-via-cmd-command--" class="level2">
+<h2 class="anchored" data-anchor-id="step-1-login-to-nova-via-cmd-command--">Step 1: Login to Nova via CMD command ———-</h2>
+<ol type="1">
+<li>Login to ISU remote via Cisco Secure Client</li>
+<li>Open CMD command line and login to Nova</li>
+</ol>
+<pre><code>$ ssh my-netid@nova.its.iastate.edu</code></pre>
+<ol start="3" type="1">
+<li>Open <em>Google Authenticator</em> to see authentication</li>
+<li>Type authentication code in to CMD command line</li>
+<li>Type ISU password into CMD command line</li>
+<li>Allocate resources to the Nova session:</li>
+</ol>
+<pre><code>$ salloc #desired options</code></pre>
 
 
 </section>
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="cHl0aG9uJTJDbWljcm9tYW1iYQ==" data-listing-date-sort="1746417600000" data-listing-file-modified-sort="1746495996014" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="89">
-<a href="./posts/5_5_2025_NovaLogin/post.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/5_5_2025_NovaLogin/nova-hpc.jpg" class="thumbnail-image card-img" style="height: 250px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Logging Into Nova HPC Cluster
-</h5>
-<div class="listing-categories">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{young2025,
+  author = {Young, Therin},
+  title = {Logging {Into} {Nova} {HPC} {Cluster}},
+  date = {2025-05-05},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-young2025" class="csl-entry quarto-appendix-citeas" role="listitem">
+Young, Therin. 2025. <span>“Logging Into Nova HPC Cluster.”</span> May
+5, 2025.
+</div></div></section></div></main> <!-- /main -->
+<div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('cHl0aG9u'); return false;">python</div>
+    <hr>
 
-<div class="listing-category" onclick="window.quartoListingCategory('bWljcm9tYW1iYQ=='); return false;">micromamba</div>
+    
 
-</div>
-<div class="card-text listing-description delink">
-<p>Writing this down to keep future me sane</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Therin Young
-</div>
-<div class="listing-date">
-May 5, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="cHl0aG9uJTJDaG91c2luZyUyMGRldmVsb3BtZW50JTJDcmVhbGVzdGF0ZQ==" data-listing-date-sort="1746072000000" data-listing-file-modified-sort="1746385995750" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="19" data-listing-word-count-sort="3641">
-<a href="./posts/5_1_2025_SFulton_subdivisions/post.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./posts/5_1_2025_SFulton_subdivisions/output_43_1.png" class="thumbnail-image card-img" style="height: 250px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Part 1: Exploring Fulton County’s Subdivision Data
-</h5>
-<div class="listing-categories">
+    <h4> Stay in touch </h4>
 
-<div class="listing-category" onclick="window.quartoListingCategory('cHl0aG9u'); return false;">python</div>
+    
 
-<div class="listing-category" onclick="window.quartoListingCategory('aG91c2luZyUyMGRldmVsb3BtZW50'); return false;">housing development</div>
+    <iframe src="https://embeds.beehiiv.com/cb95c556-8bf4-4ed1-865d-f20fdb642a1a?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"><script type="text/javascript" async src="https://embeds.beehiiv.com/attribution.js"></script></iframe>
 
-<div class="listing-category" onclick="window.quartoListingCategory('cmVhbGVzdGF0ZQ=='); return false;">realestate</div>
 
-</div>
-<div class="card-text listing-description delink">
-<p>Exploring subdivision data as it relates to the shape area and length of the subdivisions</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Therin Young
-</div>
-<div class="listing-date">
-May 1, 2025
-</div>
-</div>
-</div>
-</div></a>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+
+    
+
+    <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
+
+    <script>
+
+      kofiWidgetOverlay.draw('therin229', {
+
+        'type': 'floating-chat',
+
+        'floating-chat.donateButton.text': 'Support me',
+
+        'floating-chat.donateButton.background-color': '#00b9fe',
+
+        'floating-chat.donateButton.text-color': '#fff'
+
+      });
+
+    </script>    
+
+    <hr>
+
+    </div>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
