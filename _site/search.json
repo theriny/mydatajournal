@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "my data journal",
     "section": "",
-    "text": "Stay in touch\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLogging Into Nova HPC Cluster\n\n\n\npython\n\nmicromamba\n\n\n\nWriting this down to keep future me sane\n\n\n\nTherin Young\n\n\nMay 5, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nPart 1: Exploring Fulton County’s Subdivision Data\n\n\n\npython\n\nhousing development\n\nrealestate\n\n\n\nExploring subdivision data as it relates to the shape area and length of the subdivisions\n\n\n\nTherin Young\n\n\nMay 1, 2025\n\n\n\n\n\n\nNo matching items"
+    "text": "Stay in touch\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLogging Into Nova HPC Cluster\n\n\n\npython\n\nmicromamba\n\nHPC\n\n\n\nWriting this down to keep future me sane\n\n\n\nTherin Young\n\n\nMay 5, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nPart 1: Exploring Fulton County’s Subdivision Data\n\n\n\npython\n\nhousing development\n\nrealestate\n\n\n\nExploring subdivision data as it relates to the shape area and length of the subdivisions\n\n\n\nTherin Young\n\n\nMay 1, 2025\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -151,7 +151,7 @@
     "href": "posts/5_5_2025_NovaLogin/post.html#step-2.-initiate-conda-micromamba-environment",
     "title": "Logging Into Nova HPC Cluster",
     "section": "Step 2. Initiate Conda (Micromamba) Environment 🐍",
-    "text": "Step 2. Initiate Conda (Micromamba) Environment 🐍\n\nLoad the micromamba module (this is the alternative to using conda Mamba is faster)\nIf python environment does not exist (it won’t if this is your first time logging in), create the environment in the working directory (see working directory above)\n\n$ micromamba create --prefix workingdirectory/env-name/python -c conda-forge\n\nInitialize bash shell to use activate and deactivate\n\n$ eval \"$(micromamba shell hook --shell=bash)\"\n\nActivate the environment using micromamba\n\n$ micromamba activate workingenvironment/env-name"
+    "text": "Step 2. Initiate Conda (Micromamba) Environment 🐍\n\nLoad the micromamba module (this is the alternative to using conda Mamba is faster)\n\n$ module load micromamba\n\nIf python environment does not exist (it won’t if this is your first time logging in), create the environment in the working directory (see working directory above)\n\n$ micromamba create --prefix workingdirectory/env-name/python -c conda-forge\n\nInitialize bash shell to use activate and deactivate\n\n$ eval \"$(micromamba shell hook --shell=bash)\"\n\nActivate the environment using micromamba\n\n$ micromamba activate workingenvironment/env-name"
   },
   {
     "objectID": "posts/5_5_2025_NovaLogin/post.html#step-3.-set-conda-environment-to-work-with-open-on-demand-ood-jupyter-notebook-only-have-to-do-this-once-after-creating-micromamba-environment",

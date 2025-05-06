@@ -128,6 +128,7 @@ ul.task-list li input[type="checkbox"] {
                           <div class="quarto-categories">
                 <div class="quarto-category">python</div>
                 <div class="quarto-category">micromamba</div>
+                <div class="quarto-category">HPC</div>
               </div>
                   </div>
   </div>
@@ -201,6 +202,9 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="step-2.-initiate-conda-micromamba-environment">Step 2. Initiate Conda (Micromamba) Environment 🐍</h2>
 <ol start="7" type="1">
 <li>Load the micromamba module (<em>this is the alternative to using conda</em> Mamba is faster)</li>
+</ol>
+<pre><code>$ module load micromamba</code></pre>
+<ol start="8" type="1">
 <li>If python environment does not exist (it won’t if this is your first time logging in), create the environment in the working directory (see working directory above)</li>
 </ol>
 <pre><code>$ micromamba create --prefix workingdirectory/env-name/python -c conda-forge</code></pre>
