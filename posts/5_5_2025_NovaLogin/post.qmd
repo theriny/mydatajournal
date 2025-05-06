@@ -1,7 +1,7 @@
 ---
 title: "Logging Into Nova HPC Cluster"
 date: '2025-05-05'
-categories: [python,micromamba,hpc]
+categories: [python,micromamba,HPC]
 description: "Writing this down to keep future me sane"
 image: nova-hpc.jpg
 execute: 
@@ -36,6 +36,9 @@ $ salloc #desired options
 ```
 ## Step 2. Initiate Conda (Micromamba) Environment 🐍
 7. Load the micromamba module (*this is the alternative to using conda* Mamba is faster)
+```
+$ module load micromamba
+```
 8. If python environment does not exist (it won't if this is your first time logging in), create the environment in the working directory (see working directory above)
 
 ```
