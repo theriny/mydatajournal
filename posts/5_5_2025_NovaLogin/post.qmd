@@ -65,10 +65,10 @@ Once micromamba environment is activated, install ipykernel which is a package t
 $ micromamba install -c anaconda ipykernel
 ```
 
-When ipykernel is installed, the config that OOD nees can be created in the home directory with:
+When ipykernel is installed, the config that OOD needs can be created in the home directory with:
 
 ```
-$ python3 -m ipykernel install --user --name "env-name" # ONLY RUN ONCE
+$ python3 -m ipykernel install --user --name "env-name" 
 ```
 
 Once the config is created, the environment can be used by:
