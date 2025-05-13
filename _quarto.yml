@@ -7,7 +7,7 @@ website:
     left:
       - text: About
         href: about/about.qmd
-      - text: Projects
+      - text: Project Portfolio
         href: projects/projects.qmd
       - text: My Data Journal
         href: index.qmd
