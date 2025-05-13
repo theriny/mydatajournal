@@ -15,3 +15,5 @@ repo-actions: [source, issue]
 
 * **Genius Lyric Scraper**🎶: Using Python and Genius's API tool to scrape song lyrics [**GitHub Repo**🧑🏾‍💻](https://github.com/theriny/lyricScrape)
 *Thinking of creating a Python library for this one*
+
+* **LyricGPT**🎼: A fine-tuned RAG model for lyric creation. *Coming Soon* 👷🏾🚧👷🏾
