@@ -7,10 +7,10 @@ website:
     left:
       - text: About
         href: about/about.qmd
-      - text: My Data Journal
-        href: index.qmd
       - text: Projects
         href: projects/projects.qmd
+      - text: My Data Journal
+        href: index.qmd
       - text: Scholarship
         href: scholarship/scholarship.qmd
       
