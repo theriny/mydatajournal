@@ -2,13 +2,13 @@ project:
   type: website
 
 website:
-  title: "Journal"
+  title: "My Portfolio and Data Journal"
   navbar:
     left:
-      - text: My Data Journal
-        href: index.qmd
       - text: About
         href: about/about.qmd
+      - text: My Data Journal
+        href: index.qmd
       - text: Projects
         href: projects/projects.qmd
       - text: Scholarship
