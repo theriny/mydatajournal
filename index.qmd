@@ -3,7 +3,7 @@ title: my data journal
 subtitle: A scratchpad for data science, analytics, and other things that catch my interest
 listing:
   feed: true
-  contents: about
+  contents: posts
   sort: "date desc"
   type: grid
   grid-columns: 3
