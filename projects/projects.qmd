@@ -8,12 +8,12 @@ repo-actions: [source, issue]
 
 ## Sports 🏀🏈⚽
 
-* **Predicting NBA Game Using Defensive Stats**: A machine learning classsificatin model trained with NBA defensive stats [**GitHub Repo**🧑🏾‍💻](https://github.com/theriny/NBA-Defense-Model)[**LinkedIn Article**✍🏾](https://www.linkedin.com/pulse/does-defense-really-win-games-insights-from-nba-data-analytics-young-bnvje/)
+* **Predicting NBA Game Using Defensive Stats**: Using a machine learning classsificatin model to predict winning teams using NBA defensive stats. [**GitHub Repo**🧑🏾‍💻](https://github.com/theriny/NBA-Defense-Model)[**LinkedIn Article**✍🏾](https://www.linkedin.com/pulse/does-defense-really-win-games-insights-from-nba-data-analytics-young-bnvje/)
 
 
 ## Music 🎵🎸🎧
 
-* **Genius Lyric Scraper**🎶: Using Python and Genius's API tool to scrape song lyrics [**GitHub Repo**🧑🏾‍💻](https://github.com/theriny/lyricScrape)
+* **Genius Lyric Scraper**🎶: Using Python and Genius's API tool to scrape song lyrics from *Genius* [**GitHub Repo**🧑🏾‍💻](https://github.com/theriny/lyricScrape)
 *Thinking of creating a Python library for this one*
 
 * **LyricGPT**🎼: A fine-tuned RAG model for lyric creation. **Coming Soon** 👷🏾🚧👷🏾
